@@ -2,44 +2,37 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>圣诞树</title>
-    <link rel="stylesheet" href="./index.css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      :root {
+        --fontColor: red;
+      }
+      body {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      span {
+        color: var(--fontColor);
+        cursor: pointer;
+      }
+    </style>
   </head>
   <body>
-    <div class="box-canvas">
-      <div class="trunk"></div>
-      <div class="tree"></div>
-      <div class="star"></div>
-      <div class="lights-group bottom">
-        <div class="light"></div>
-        <div class="light"></div>
-        <div class="light"></div>
-        <div class="light"></div>
-        <div class="light"></div>
-      </div>
-      <div class="lights-group top">
-        <div class="light"></div>
-        <div class="light"></div>
-        <div class="light"></div>
-        <div class="light"></div>
-      </div>
-    </div>
-    <div class="benediction">
-      <!-- 送给偶的驴王陛下---苏梦熙 -->
-      <!-- <span>送</span>
-      <span>给</span>
-      <span>偶</span>
-      <span>的</span>
-      <span>驴</span>
-      <span>王</span>
-      <span>陛</span>
-      <span>下</span>
-      <span>&nbsp</span> -->
-      <!-- <span style="color: pink">苏</span>
-      <span style="color: pink">梦</span>
-      <span style="color: pink">熙</span> -->
-      <span style="color: pink">S</span>
-      <span style="color: pink">B</span>
+    <div>
+      <p>男人不识本站 上遍色站也枉然! 点击-><span>跳转</span></p>
     </div>
   </body>
+  <script>
+    const span = document.querySelector("span");
+    span.onclick = () => window.open("http://7k7k.com");
+  </script>
 </html>
